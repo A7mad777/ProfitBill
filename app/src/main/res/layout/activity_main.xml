@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg_txt"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginEnd="129dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginRight="129dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="136dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/stickeroid_5bf56a80d3774" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="209dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginLeft="91dp"
+        android:layout_marginRight="90dp"
+        android:layout_marginStart="91dp"
+        android:layout_marginTop="1dp"
+        android:text="Current Selling"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+</android.support.constraint.ConstraintLayout>

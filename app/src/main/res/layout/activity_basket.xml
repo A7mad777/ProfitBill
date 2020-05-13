@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg_txt"
+    android:layout_height="match_parent"
+    tools:context=".Activities.BasketActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout9"
+        android:layout_width="315dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="240dp"
+        android:layout_marginEnd="82dp"
+        android:layout_marginLeft="81dp"
+        android:layout_marginRight="82dp"
+        android:layout_marginStart="81dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/bb_txt"
+            app:srcCompat="@drawable/ic_add_black_24dp"
+            tools:ignore="VectorDrawableCompat"
+            tools:layout_editor_absoluteX="83dp"
+            tools:layout_editor_absoluteY="443dp" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="148dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="176dp"
+            tools:layout_editor_absoluteY="451dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/bb_txt"
+            app:srcCompat="@drawable/ic_remove_black_24dp"
+            tools:ignore="VectorDrawableCompat"
+            tools:layout_editor_absoluteX="278dp"
+            tools:layout_editor_absoluteY="442dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="37dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginRight="56dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="164dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Product Name"
+            android:textColor="@android:color/background_dark"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="TextView"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout8"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginRight="56dp"
+        android:layout_marginStart="55dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Sell Price"
+            android:textColor="@android:color/background_dark"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="TextView"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
